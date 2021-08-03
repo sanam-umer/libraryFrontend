@@ -1,0 +1,14 @@
+
+.navp{
+    background-color: darkblue;
+}
+h1{
+    color: cornsilk;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    color: rgb(10, 9, 9);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}

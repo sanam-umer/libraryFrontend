@@ -13,9 +13,7 @@ import { AddauthorComponent } from './addauthor/addauthor.component';
 import { UpdateAuthorComponent } from './update-author/update-author.component';
 import { UpdateBookComponent } from './update-book/update-book.component';
 import { SignupComponent } from './signup/signup.component';
-import { IndexComponent } from './index/index.component';
 import { LoginComponent } from './login/login.component';
-import { HomeComponent } from './home/home.component';
 import { BookserviceService } from './bookservice.service';
 import { AuthorService } from './author.service';
 import { AuthService } from './auth.service';
@@ -30,9 +28,7 @@ import { AuthService } from './auth.service';
     UpdateAuthorComponent,
     UpdateBookComponent,
     SignupComponent,
-    IndexComponent,
     LoginComponent,
-    HomeComponent
   ],
   imports: [
     BrowserModule,

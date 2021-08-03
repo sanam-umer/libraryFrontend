@@ -1,0 +1,11 @@
+.card-header{
+    color: rgb(232, 232, 241);
+    background-color: darkblue;
+    height: 100px;
+    font-size: x-large;
+    font-weight: bolder;
+    
+}
+.card-body{
+    background-color:lavenderblush;
+}

@@ -1,37 +1,45 @@
-<div class='card'>
+<div class="container">
+  <div>
+    <h3 style="color: #1687a7; margin-top: 1%; margin-bottom: 2%; text-align: center;">{{title}}
+      <p class="lead"></p>
+    </h3>
+  </div>
   <form (ngSubmit)="editBook()">
-<div class='card-header'>
-Edit Book
-</div>
-<div class='card-body'>            
-<div class='table-responsive'>
-  <table class='table'>       
-  
-    <tbody> 
-     
-      <tr>
-        <td> <label>Book Title</label></td>
-        <td><input type="text" name="b_title" [(ngModel)]="bookItem.title"/></td>                  
-      </tr>   
-      <tr>
-          <td><label>Book Author</label></td>
-          <td><input type="text" name="b_author" [(ngModel)]="bookItem.author"/></td>                  
-        </tr>  
-        <tr>
-          <td><label>Genre</label></td>
-          <td><input type="text" name="b_genre" [(ngModel)]="bookItem.genre"/></td>                  
-        </tr>  
-        <tr>
-          <td><label>Book image</label></td>
-          <td><input type="text" name="b_image" [(ngModel)]="bookItem.image"/></td>                  
-        </tr>  
-        <tr>
-              <td></td>
-              <td><input type="submit" value="Submit" /></td>                  
-            </tr>             
-    </tbody>
-  </table>
-</div>
-</div>
-</form>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6" style="margin-left: 25%;">
+          <div class="panel">
+            <div class="panel-body" style="background-color: #d3e0ea; border-radius: 20px;">
+              <div class='table-responsive'>
+                <table class='table' style="margin-top: 15px;">       
+                  <tbody>  
+                    <tr>
+                      <td><label>Book Title</label></td>
+                      <td><input type="text" style="width: 250px;" id="name" name="name" [(ngModel)]="bookItem.title"/></td>              
+                    </tr>
+                    <tr>
+                      <td><label>Author</label></td>
+                      <td><input type="text" style="width: 250px;" id="works" name="works" [(ngModel)]="bookItem.author"/></td>
+                    </tr> 
+                    <tr>
+                      <td><label>Genre</label></td>
+                      <td><input type="text" style="width: 250px;" id="genre" name="genre" [(ngModel)]="bookItem.genre"/></td>                  
+                    </tr> 
+                    <tr>
+                      <td><label>Image Url</label></td>
+                      <td><input type="text" style="width: 250px;" id="image" name="image" [(ngModel)]="bookItem.image"/></td>                  
+                    </tr>  
+                    <tr>
+                      <td></td>
+                      <td><button type="submit" class="btn btn-info">Submit</button></td>                  
+                    </tr>             
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
 </div>
